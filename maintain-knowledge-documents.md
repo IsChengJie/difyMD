@@ -1,0 +1,75 @@
+# Manage Knowledge Content
+
+## Manage Documents
+
+In a knowledge base, each imported item—whether a local file, a Notion page, or a web page—becomes a document.
+
+From the document list, you can view and manage all these documents to keep your knowledge accurate, relevant, and up-to-date.
+
+<Tip>
+  Click the knowledge base name at the top to quickly switch between knowledge bases.
+</Tip>
+
+<img src="https://mintcdn.com/dify-6c0370d8/KonJEa1w7OADKBFj/images/manage_knowledge_documents.png?fit=max&auto=format&n=KonJEa1w7OADKBFj&q=85&s=b8fae3ab0bb74b7942f3f74e38c310ad" alt="Manage Knowledge Documents" data-og-width="3432" width="3432" data-og-height="1840" height="1840" data-path="images/manage_knowledge_documents.png" data-optimize="true" data-opv="3" srcset="https://mintcdn.com/dify-6c0370d8/KonJEa1w7OADKBFj/images/manage_knowledge_documents.png?w=280&fit=max&auto=format&n=KonJEa1w7OADKBFj&q=85&s=6b493b2be03dbc61f3923ad1e4fc5000 280w, https://mintcdn.com/dify-6c0370d8/KonJEa1w7OADKBFj/images/manage_knowledge_documents.png?w=560&fit=max&auto=format&n=KonJEa1w7OADKBFj&q=85&s=4aaf8ae247e58ebf0b1d4058fddcc15f 560w, https://mintcdn.com/dify-6c0370d8/KonJEa1w7OADKBFj/images/manage_knowledge_documents.png?w=840&fit=max&auto=format&n=KonJEa1w7OADKBFj&q=85&s=cb3c1e1c431578a06ae0fa8663385d3b 840w, https://mintcdn.com/dify-6c0370d8/KonJEa1w7OADKBFj/images/manage_knowledge_documents.png?w=1100&fit=max&auto=format&n=KonJEa1w7OADKBFj&q=85&s=ef8e5e17f5283cc87d0ec4dda8f4ca8e 1100w, https://mintcdn.com/dify-6c0370d8/KonJEa1w7OADKBFj/images/manage_knowledge_documents.png?w=1650&fit=max&auto=format&n=KonJEa1w7OADKBFj&q=85&s=c981805c81376bb085f26ecf4c8a7274 1650w, https://mintcdn.com/dify-6c0370d8/KonJEa1w7OADKBFj/images/manage_knowledge_documents.png?w=2500&fit=max&auto=format&n=KonJEa1w7OADKBFj&q=85&s=e764d073199b0f82e198c26664eb9d0b 2500w" />
+
+| Action                | Description                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| :-------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Add                   | Import a new document.                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Modify Chunk Settings | Modify a document's chunking settings (excluding the chunk structure).<Info>Each document can have its own chunking settings, while the chunk structure is shared across the knowledge base and cannot be changed once set.</Info>                                                                                                                                                                                                 |
+| Delete                | Permanently remove a document. **Deletion cannot be undone**.                                                                                                                                                                                                                                                                                                                                                                      |
+| Enable / Disable      | Temporarily include or exclude a document from retrieval. <Note>On Dify Cloud, documents that have not been updated or retrieved for a certain period are automatically disabled to optimize performance.<br /><br />The inactivity period varies by subscription plan:<ul><li>Sandbox: 7 days</li><li>Professional & Team: 30 days</li></ul> Professional and Team users can re-enable these documents **with one click**.</Note> |
+| Archive / Unarchive   | Archive a document that you no longer need for retrieval but still want to keep. Archived documents are read-only and can be unarchived at any time.                                                                                                                                                                                                                                                                               |
+| Edit                  | Modify the content of a document by editing its chunks. See [Manage Chunks](#manage-chunks) for details.                                                                                                                                                                                                                                                                                                                           |
+| Rename                | Change the name of a document.                                                                                                                                                                                                                                                                                                                                                                                                     |
+
+## Manage Chunks
+
+According to its chunk settings, every document is split into content chunks—the basic units for retrieval.
+
+From the chunk list within a document, you can view and manage all its chunks to improve the retrieval efficiency and accuracy.
+
+<Tip>
+  Click the document name in the upper-left corner to quickly switch between documents.
+</Tip>
+
+<img src="https://mintcdn.com/dify-6c0370d8/KonJEa1w7OADKBFj/images/manage_document_chunks.png?fit=max&auto=format&n=KonJEa1w7OADKBFj&q=85&s=91919ee2de197fd9deac550eec4db5cf" alt="Manage Knowledge Chunks" data-og-width="3398" width="3398" data-og-height="1320" height="1320" data-path="images/manage_document_chunks.png" data-optimize="true" data-opv="3" srcset="https://mintcdn.com/dify-6c0370d8/KonJEa1w7OADKBFj/images/manage_document_chunks.png?w=280&fit=max&auto=format&n=KonJEa1w7OADKBFj&q=85&s=d756b971e5b413022db5e25099e28392 280w, https://mintcdn.com/dify-6c0370d8/KonJEa1w7OADKBFj/images/manage_document_chunks.png?w=560&fit=max&auto=format&n=KonJEa1w7OADKBFj&q=85&s=b9bf982bef2d023b172cdeaf6831804f 560w, https://mintcdn.com/dify-6c0370d8/KonJEa1w7OADKBFj/images/manage_document_chunks.png?w=840&fit=max&auto=format&n=KonJEa1w7OADKBFj&q=85&s=ae7b146932d2a8bee895e51dce968905 840w, https://mintcdn.com/dify-6c0370d8/KonJEa1w7OADKBFj/images/manage_document_chunks.png?w=1100&fit=max&auto=format&n=KonJEa1w7OADKBFj&q=85&s=cef7f78d319b2043362de882e5e652a4 1100w, https://mintcdn.com/dify-6c0370d8/KonJEa1w7OADKBFj/images/manage_document_chunks.png?w=1650&fit=max&auto=format&n=KonJEa1w7OADKBFj&q=85&s=a5c33a4615df85ba0f3ba7a4d97effde 1650w, https://mintcdn.com/dify-6c0370d8/KonJEa1w7OADKBFj/images/manage_document_chunks.png?w=2500&fit=max&auto=format&n=KonJEa1w7OADKBFj&q=85&s=ad46739cefa66c91c905cc11f9a3f44d 2500w" />
+
+| Action                         | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| :----------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Add                            | Add one or batch add multiple new chunks. <br /><br />For documents chunked with Parent-child mode, both new parent and child chunks can be added. <Info>*Add chunks* is a paid feature on Dify Cloud. [Upgrade to Professional or Team](https://dify.ai/pricing) to use it.</Info>                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Delete                         | Permanently remove a chunk. **Deletion cannot be undone**.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Enable / Disable               | Temporarily include or exclude a chunk from retrieval. Disabled chunks cannot be edited.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Edit                           | Modify the content of a chunk. Edited chunks are marked **Edited**.<br /><br />For documents chunked with Parent-child mode: <ul><li>When editing a parent chunk, you can choose to regenerate its child chunks or keep them unchanged.</li><li>Editing a child chunk does not update its parent chunk. </li></ul>                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Add / Edit / Delete Keywords   | In knowledge bases using the Economical index method, you can add or modify keywords for each chunk to improve its retrievability. <br /><br />Each chunk can have up to 10 keywords.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Add / Delete Image Attachments | Delete images extracted from documents or upload new ones within their corresponding chunk.<br /><br />URLs of extracted images remain in the chunk text, but you can safely remove these URLs to keep the text clean—this won't affect the extracted images. <Note> Each chunk can have up to 10 image attachments, which are returned alongside it during retrieval; images beyond this limit will not be extracted.<br /><br />For self-hosted deployments, you can adjust this limit via the environment variable `SINGLE_CHUNK_ATTACHMENT_LIMIT`.</Note><Tip>If you select a multimodal embedding model (marked with a **Vision** icon), the extracted images will also be embedded and indexed for retrieval.</Tip> |
+
+## Best Practices
+
+### Check Chunk Quality
+
+After a document is chunked, carefully review each chunk to ensure it's semantically complete and appropriately sized for optimal retrieval accuracy and response relevance.
+
+Common issues to watch for:
+
+* Chunks are **too short**—may lack sufficient context, leading to semantic loss and inaccurate answers.
+
+* Chunks are **too long**—may include irrelevant information, introducing semantic noise and lowering retrieval precision.
+
+* Chunks are **semantically incomplete**—caused by forced chunking that cuts through sentences or paragraphs, resulting in missing or misleading content during retrieval.
+
+### Use Child Chunks as Retrieval Hooks for Parent Chunks
+
+For documents chunked with Parent-child mode, the system searches across child chunks but returns the parent chunks. Since editing a child chunk does not update its parent, you can treat child chunks as semantic tags or retrieval hints for their parent chunks.
+
+To do this, rewrite child chunks into **keywords**, **summaries**, or **common user queries**. For example, if a parent chunk covers the full *Return Policy*, you could rephrase its child chunks as:
+
+* *How do I return an item?*
+
+* *What's the refund period?*
+
+* *Are there any return shipping fees?*
+
+
+---
+
+> To find navigation and other pages in this documentation, fetch the llms.txt file at: https://docs.dify.ai/llms.txt
